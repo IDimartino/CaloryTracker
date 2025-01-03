@@ -15,8 +15,9 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import coil.annotation.ExperimentalCoilApi
-import com.dimartino.core.domain.preferences.Preferences
 import com.dimartino.calorytracker.navigation.Route
+import com.dimartino.calorytracker.ui.theme.CaloryTrackerTheme
+import com.dimartino.core.domain.preferences.Preferences
 import com.dimartino.onboarding_presentation.activity.ActivityScreen
 import com.dimartino.onboarding_presentation.age.AgeScreen
 import com.dimartino.onboarding_presentation.gender.GenderScreen
@@ -27,7 +28,6 @@ import com.dimartino.onboarding_presentation.weight.WeightScreen
 import com.dimartino.onboarding_presentation.welcome.WelcomeScreen
 import com.dimartino.tracker_presentation.search.SearchScreen
 import com.dimartino.tracker_presentation.tracker_overview.TrackerOverviewScreen
-import com.dimartino.calorytracker.ui.theme.CaloryTrackerTheme
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
