@@ -9,6 +9,7 @@ A simple Calory Tracker app built with modern Android development practices, inc
 - User-friendly interface built with Jetpack Compose.
 - Efficient local data storage with Room.
 - Remote data handling via Retrofit.
+- Unit Test for use cases.
 
 ## Architecture
 
@@ -24,7 +25,7 @@ The app follows **Clean Architecture** principles, with a **Multimodule** setup 
 
 ## Technologies Used
 
-- **Clean Architecture**: Promotes separation of concerns and testability.
+- **Clean Architecture**: Promotes separation of concerns, testability and SOLID principles.
 - **Multimodule**: Splits the app into separate modules for better maintainability and modularity.
 - **Room**: Local database for storing meals and calorie intake.
 - **Retrofit**: For network communication and interacting with external APIs.
